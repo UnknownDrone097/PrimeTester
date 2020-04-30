@@ -16,4 +16,4 @@ def IsPrime(number):
     power += 1
 
 
-print(IsPrime(float(input('number?'))))
+print(IsPrime(float(input('Number?\n'))))
