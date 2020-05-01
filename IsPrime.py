@@ -1,7 +1,7 @@
 def IsPrime(number):
     divisor = 2
 
-    while (number % divisor) != 0 and divisor < int(number ** .5) + 1:
+    while (number % divisor) != 0 and divisor <= int(number ** .5):
         if (divisor == 2):
             divisor += 1
             continue
