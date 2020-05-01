@@ -12,8 +12,5 @@ def IsPrime(number):
             return(number, divisor, 'Not prime')
         else:
             return(number, 'Prime')
-    divisor = 2
-    power += 1
-
 
 print(IsPrime(float(input('Number?\n'))))
